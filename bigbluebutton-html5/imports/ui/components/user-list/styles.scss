@@ -83,7 +83,7 @@
 .userList {
   @extend %flex-column;
   justify-content: flex-start;
-  background-color: var(--user-list-bg);
+  background-color: #1ed664;
   color: var(--user-list-text);
   height: 100%;
 }

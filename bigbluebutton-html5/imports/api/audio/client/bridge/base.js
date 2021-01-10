@@ -11,6 +11,7 @@ export default class BaseAudioBridge {
       WEBRTC_NOT_SUPPORTED: 'WEBRTC_NOT_SUPPORTED',
       ICE_NEGOTIATION_FAILED: 'ICE_NEGOTIATION_FAILED',
     };
+    
 
     this.baseCallStates = {
       started: 'started',

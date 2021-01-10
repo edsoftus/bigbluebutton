@@ -162,6 +162,17 @@ class LockViewersComponent extends Component {
         shouldShowCloseButton={false}
         contentLabel={intl.formatMessage(intlMessages.ariaModalTitle)}
       >
+         <div class="row">
+         <div class="col-md-md-4">
+           <p>Video </p>
+         </div>
+         <div class="col-md-md-4">
+         <p>Chat</p>
+         </div>
+         <div class="col-md-md-4">
+         <p>user list</p>
+         </div>
+          </div>  
 
         <div className={styles.container}>
           <div className={styles.header}>
